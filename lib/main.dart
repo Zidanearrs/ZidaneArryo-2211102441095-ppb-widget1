@@ -60,6 +60,11 @@ class WidgetDemo extends StatelessWidget {
                   Icon(Icons.sunny, color: Colors.yellow),
                 ],
               ),
+               SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('Zidane Arryo (Button)'),
+              ),
             ],
           ),
         ),
