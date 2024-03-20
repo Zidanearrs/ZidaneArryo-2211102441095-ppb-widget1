@@ -39,6 +39,19 @@ class WidgetDemo extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
+              SizedBox(height: 20),
+              Container(
+                padding: EdgeInsets.all(10),
+                margin: EdgeInsets.symmetric(vertical: 10),
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text(
+                  'Zidane Arryo (Container)',
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
             ],
           ),
         ),
