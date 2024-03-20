@@ -52,6 +52,14 @@ class WidgetDemo extends StatelessWidget {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
+                  Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.favorite, color: Colors.red),
+                  SizedBox(width: 10),
+                  Icon(Icons.sunny, color: Colors.yellow),
+                ],
+              ),
             ],
           ),
         ),
