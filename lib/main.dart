@@ -80,7 +80,49 @@ class WidgetDemo extends StatelessWidget {
                   ),
                 ],
               ),
-
+               SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: Container(
+                    color: Colors.red,
+                    child: Center(
+                      child: Text(
+                        'Zidane Arryo (Aspek Rasio)',
+                        style: TextStyle(fontSize: 20, color: Colors.red),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+                   SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: Container(
+                    color: Colors.red,
+                    child: Center(
+                      child: Text(
+                        'Zidane Arryo (Aspek Rasio)',
+                        style: TextStyle(fontSize: 20, color: Colors.red),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 20),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      title: Text('Item $index'),
+                    );
+                  },
+              ),
+              ),
             ],
           ),
         ),
